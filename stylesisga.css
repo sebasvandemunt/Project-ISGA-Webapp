@@ -1,0 +1,86 @@
+* {
+    Margin: 0;
+    Padding: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(SourceSansPro-Regular.ttf)
+}
+
+body {
+    margin: 50px;
+    height: 667px;
+    width: 375px;
+    overflow: scroll;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    border-color: white;
+    font-family: SourceSansPro-Regular;
+}
+
+
+h1 {
+    font-size: 30pt;
+    font-family: SourceSansPro-Regular;
+}
+
+header {
+    color: red;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40pt;    
+}
+
+footer {
+    color: red;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    width: 375px;
+    font-size: 30pt;
+    font-family: SourceSansPro-Regular;
+}
+
+section {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div {
+    width: 50%;
+    margin-top: 20px;
+}
+
+section div a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+}
+
+footer {
+    max-width: 100%;
+    position: absolute;
+}
+
+footer img {
+    height: 100%;
+}
+
+footer p {
+    white-space: nowrap;
+}
