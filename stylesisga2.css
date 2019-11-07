@@ -48,6 +48,7 @@ header {
     justify-content: space-evenly;
     font-size: 40pt;
     font-family: SourceSansPro-Regular;
+    background-color: black;
 }
 
 footer {
@@ -58,6 +59,10 @@ footer {
     width: 375px;
     font-size: 30pt;
     font-family: SourceSansPro-Regular;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
 }
 
 section {
@@ -79,10 +84,6 @@ section div a {
 
 img {
     border-radius: 10px;
-}
-
-footer {
-    max-width: 100%;
 }
 
 footer img {
